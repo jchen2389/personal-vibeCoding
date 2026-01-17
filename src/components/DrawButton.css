@@ -1,0 +1,29 @@
+.draw-button {
+    background-color: #06C755;
+    /* LINE Green */
+    color: white;
+    border: none;
+    width: 100%;
+    height: 52px;
+    /* Fixed height for touch target */
+    font-size: 1.05rem;
+    font-weight: 600;
+    border-radius: 12px;
+    /* Matches mockup */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(6, 199, 85, 0.25);
+    transition: transform 0.1s;
+}
+
+.draw-button:active:not(:disabled) {
+    transform: scale(0.98);
+}
+
+.draw-button:disabled {
+    background-color: #ccc;
+    box-shadow: none;
+    cursor: not-allowed;
+}

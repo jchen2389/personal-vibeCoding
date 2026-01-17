@@ -1,0 +1,20 @@
+.mystery-card {
+    background: #ffffff;
+    border-radius: 20px;
+    /* Same as RestaurantCard to avoid layout shift feel */
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    /* Square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f2f2f2;
+}
+
+.mystery-content {
+    font-size: 5rem;
+    font-weight: 500;
+    color: #DDD;
+    /* Lighter ? mark */
+}
